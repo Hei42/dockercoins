@@ -7,4 +7,4 @@
     command: kubectl cluster-info
     register: k8sClusterOk
   - name: deploy dockercoins
-    command: kubectl apply -f /tmp/demoapp-manifest.yml
+    command: kubectl apply -f /tmp/dockercoins-manifest.yml

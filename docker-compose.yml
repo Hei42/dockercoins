@@ -1,12 +1,12 @@
 version: "3"
 services:
   worker:
-    image: worker
+    image: jil22400/dockercoins:latest
     build: ./worker/
   rng:
-    image: brahimhamdi/rng:1.0
+    image: asabella/rng:latest
   hasher:
-    image: brahimhamdi/hasher:1.0
+    image: alexisbonnet1997/hasher:latest
   webui:
     image: brahimhamdi/webui:1.0
     ports:

@@ -23,7 +23,7 @@ spec:
   spec:
    containers:
    - name: worker
-     image: brahimhamdi/worker:1.0
+     image: jil22400/dockercoins
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -45,7 +45,7 @@ spec:
   spec:
    containers:
    - name: rng
-     image: brahimhamdi/rng:1.0
+     image: asabella/rng:latest
 ---
 apiVersion: v1
 kind: Service
@@ -80,7 +80,7 @@ spec:
   spec:
    containers:
    - name: hasher
-     image: brahimhamdi/hasher:1.0
+     image: alexisbonnet1997/hasher:latest
 ---
 apiVersion: v1
 kind: Service
